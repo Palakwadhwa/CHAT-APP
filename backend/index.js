@@ -13,7 +13,10 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(cookieParser())
 app.use(cors({
-   origin: ['http://localhost:5173', 'https://link-up-9pa0.onrender.com'],
+origin: [
+  'http://localhost:5173',
+  'https://chat-app-n5oz34cjk-palakkwadhwas-projects.vercel.app'
+],
   credentials: true
 }));
 const predefinedQA = [
