@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.navbar-btn {
+  @apply w-11 h-11 rounded-2xl bg-[#1f2937]
+  hover:bg-[#2d3748]
+  flex items-center justify-center
+  text-white transition-all duration-300;
+}
+
+.nav-action-btn {
+  @apply px-5 h-11 rounded-2xl bg-[#1f2937]
+  hover:bg-[#2d3748]
+  text-white font-medium
+  transition-all duration-300
+  flex items-center gap-2;
+}
+
+.logout-btn {
+  @apply px-5 h-11 rounded-2xl
+  bg-gradient-to-r from-violet-500 to-indigo-500
+  text-white font-semibold
+  shadow-lg hover:scale-105
+  transition-all duration-300
+  flex items-center gap-2;
+}
